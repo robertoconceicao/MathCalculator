@@ -36,7 +36,7 @@ public class MathCalculator extends CordovaPlugin {
 
                 callback.success("" + (p1+p2));
             } catch (Exception e) {
-                callback.error("Algo deu errado " + ex);
+                callback.error("Algo deu errado " + e);
             }
 
         } else {
@@ -54,7 +54,7 @@ public class MathCalculator extends CordovaPlugin {
 
                 callback.success("" + (p1-p2));
             } catch (Exception e) {
-                callback.error("Algo deu errado " + ex);
+                callback.error("Algo deu errado " + e);
             }
 
         } else {
